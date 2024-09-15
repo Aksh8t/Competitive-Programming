@@ -6,11 +6,11 @@ int main() {
 	int t;
 	cin >> t;
 	while(t--) {
-			ll n;
-	cin >> n;
+		ll n;
+	    cin >> n;
 
-	map<ll, ll> arr;
-	for(ll i = 0, x; i < n; i++) {
+	    map<ll, ll> arr;
+	    for(ll i = 0, x; i < n; i++) {
 		cin >> x;
 		arr[x]++;
 	}
