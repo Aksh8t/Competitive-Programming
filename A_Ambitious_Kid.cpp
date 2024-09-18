@@ -21,8 +21,8 @@ int main()
         ll n;
         cin >> n;
 
-        ll x = INT_MAX ; 
-        
+        ll x = INT_MAX;
+
         for (int i = 0; i < n; i++)
         {
             ll j;
@@ -32,10 +32,10 @@ int main()
                 x = 0;
                 break;
             }
-            
+
             x = min(x, abs(j));
         }
-            cout << x << nl;
+        cout << x << nl;
     }
 
     return 0;
